@@ -16,5 +16,5 @@ artifacts:
   files:
     - dist/*
   discard-paths: yes
-  base-directory: 'dist'
+  base-directory: '.'
   bucket-name: sample-python-app-codebuild
