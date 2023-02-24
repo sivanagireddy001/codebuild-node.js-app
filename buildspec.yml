@@ -10,10 +10,11 @@ phases:
       - npm install npm -g
   build:
     commands:
-      - ng build
+      - npm run build
 
 artifacts:
   files:
     - dist/*
+  discard-paths: yes
   base-directory: 'dist'
   bucket-name: sample-python-app-codebuild
