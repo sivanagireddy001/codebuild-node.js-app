@@ -7,10 +7,10 @@ phases:
 
   pre_build:
     commands:
-      - npm i
+      - npm install npm -g
   build:
     commands:
-      - npm run build
+      - ng build
 
 artifacts:
   files:
