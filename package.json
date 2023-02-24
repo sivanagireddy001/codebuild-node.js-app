@@ -1,0 +1,17 @@
+{
+    "name": "sample-nodejs-app",
+    "version": "1.0.0",
+    "description": "A sample Node.js app",
+    "main": "app.js",
+    "scripts": {
+      "start": "node app.js",
+      "test": "echo \"No tests yet\" && exit 0",
+      "build": "echo \"No build steps yet\" && exit 0"
+    },
+    "author": "siva",
+    "license": "MIT",
+    "dependencies": {
+      "http": "^0.0.1"
+    }
+  }
+  
